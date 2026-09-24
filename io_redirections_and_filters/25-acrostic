@@ -1,2 +1,2 @@
 #!/bin/bash
-cat acrostic_1 | cut -c1 | tr -d '\n' | cut -f1
+cat acrostic_1 | head -c -1 | cut -c1 | tr -d '\n'
