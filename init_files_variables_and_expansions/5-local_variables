@@ -1,0 +1,2 @@
+#!/bin/bash
+printenv | declare -p | grep -v 'declare -f' | sort | declare -F | sort
